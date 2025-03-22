@@ -3235,33 +3235,35 @@ input, select, textarea {
 
 			}
 
-		.wrapper.alt {
-			background-color: #261c3e;
-		}
+.wrapper.alt {
+	background-color: #2E3440; /* Dark Slate Blue */
+}
 
-		.wrapper.style1 {
-			background-color: #5e42a6;
-		}
+.wrapper.style1 {
+	background-color: #37474F; /* Blue Grey Darken */
+}
 
-		.wrapper.style1-alt {
-			background-color: #493382;
-		}
+.wrapper.style1-alt {
+	background-color: #455A64; /* Blue Grey Darken-2 */
+}
 
-		.wrapper.style2 {
-			background-color: #5052b5;
-		}
+.wrapper.style2 {
+	background-color: #546E7A; /* Blue Grey Darken-3 */
+}
 
-		.wrapper.style2-alt {
-			background-color: #3e4094;
-		}
+.wrapper.style2-alt {
+	background-color: #607D8B; /* Blue Grey Darken-4 */
+}
 
-		.wrapper.style3 {
-			background-color: #b74e91;
-		}
+.wrapper.style3 {
+	background-color: #3B4252; /* Darker Slate Blue */
+}
 
-		.wrapper.style3-alt {
-			background-color: #953d75;
-		}
+.wrapper.style3-alt {
+	background-color: #4C566A; /* Darkest Slate Blue */
+}
+
+
 
 		.wrapper.fullscreen {
 			display: -moz-flex;
@@ -3370,7 +3372,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #e6e5ea;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3907,3 +3909,14 @@ input, select, textarea {
 			}
 
 		}
+		/* Primary Logo */
+		.logo-wrapper {
+			text-align: center;
+			padding: 40px 0;
+		  }
+		  
+		  .logo {
+			max-width: 300px;
+			width: 80%;
+			height: auto;
+		  }
