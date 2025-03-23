@@ -253,66 +253,70 @@
 					</div>
 				</section>
 
-				<!-- Get in touch -->
-					<section id="Get in touch" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<div class="split style1">
-								<section>
-									<form method="post" action="/RAXSAN-REIMAGINED/assets/php/submit_form.php">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><button type="submit" class="button">Send Message</button></li>
-										</ul>										
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>Raxsan Pte Ltd<br />
-											#02-05B, Jurong West Ave 5<br />
-											Singapore 649486</span>
-										  </li>										  
-										<li>
-											<h3>Email</h3>
-											<a href="#">sales@raxsan.sg</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(+65) 9380 9366</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
-
+<!-- Get in touch -->
+<section id="Get in touch" class="wrapper style3 fade-up">
+	<div class="inner">
+	  <h2>Get in touch</h2>
+	  <div class="split style1">
+		<section>
+		  <form action="https://api.web3forms.com/submit" method="POST">
+			<!-- Access Key -->
+			<input type="hidden" name="access_key" value="14011606-9cf5-4acb-b56d-d7fd2ca0ba1b">
+  
+			<!-- Form Fields -->
+			<div class="fields">
+			  <div class="field half">
+				<input type="text" name="name" placeholder="Your Name" required />
+			  </div>
+			  <div class="field half">
+				<input type="email" name="email" placeholder="Your Email" required />
+			  </div>
+			  <div class="field">
+				<textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+			  </div>
 			</div>
-
+  
+			<!-- Honeypot Spam Filter -->
+			<input type="text" name="botcheck" style="display:none;" tabindex="-1" autocomplete="off" />
+  
+			<!-- Submit Button -->
+			<ul class="actions">
+			  <li><button type="submit" class="button submit">Send Message</button></li>
+			</ul>
+		  </form>
+		</section>
+		<section>
+		  <ul class="contact">
+			<li>
+			  <h3>Address</h3>
+			  <span>Raxsan Pte Ltd<br />
+				#02-05B, Jurong West Ave 5<br />
+				Singapore 649486</span>
+			</li>
+			<li>
+			  <h3>Email</h3>
+			  <a href="#">sales@raxsan.sg</a>
+			</li>
+			<li>
+			  <h3>Phone</h3>
+			  <span>(+65) 9380 9366</span>
+			</li>
+			<li>
+			  <h3>Social</h3>
+			  <ul class="icons">
+				<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+				<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+			  </ul>
+			</li>
+		  </ul>
+		</section>
+	  </div>
+	</div>
+  </section>
+  
 		<!-- Footer -->
 		<footer id="footer" class="wrapper style2-alt">
 			<div class="inner">
