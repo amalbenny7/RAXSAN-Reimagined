@@ -3921,4 +3921,11 @@ input, select, textarea {
 			height: auto;
 		  }
 
+/* custom modifier _amal */
+.section.minimal-height {
+    min-height: 20px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
 		  
