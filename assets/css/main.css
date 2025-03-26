@@ -2535,29 +2535,63 @@ input, select, textarea {
 				font-size: 1.25em;
 			}
 
-				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
-				}
+		/* ------------------- Style 1: Deep Ocean Blue ------------------- */
+		.wrapper.style1 {
+			background-color: #37474F; /* Bold yet professional */
+		}
+		.wrapper.style1 .icon.major:before {
+			color: #5e42a6; /* Icon Accent: Medium Violet */
+		}
 
-				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
-				}
+		/* ------------------- Style 2: Deep Ocean Night ------------------- */
+		.wrapper.style2 {
+			background-color: #263238; /* Adds depth and focus */
+		}
+		.wrapper.style2 .icon.major:before {
+			color: #493382; /* Icon Accent: Deep Violet */
+		}
 
-				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
-				}
+		/* ------------------- Style 3: Earthy Olive ------------------- */
+		.wrapper.style3 {
+			background-color: #6D4C41; /* Warm and inviting */
+		}
+		.wrapper.style3 .icon.major:before {
+			color: #5052b5; /* Icon Accent: Muted Indigo */
+		}
 
-				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
-				}
+		/* ------------------- Style 4: Dark Earthy Olive ------------------- */
+		.wrapper.style4 {
+			background-color: #5D4037; /* Rich and robust, great for important elements */
+		}
+		.wrapper.style4 .icon.major:before {
+			color: #3e4094; /* Icon Accent: Deep Indigo */
+		}
 
-				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
-				}
+		/* ------------------- Style 5: Rosy Plum ------------------- */
+		.wrapper.style5 {
+			background-color: #B74E91; /* Elegant and warm */
+		}
+		.wrapper.style5 .icon.major:before {
+			color: #b74e91; /* Icon Accent: Rosy Magenta */
+		}
 
-				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
-				}
+		/* ------------------- Style 6: Deep Rosy Plum ------------------- */
+		.wrapper.style6 {
+			background-color: #953D75; /* Soft yet confident */
+		}
+		.wrapper.style6 .icon.major:before {
+			color: #953d75; /* Icon Accent: Deep Rosy Plum */
+		}
+
+		/* ------------------- Style 7: Sleek Silver ------------------- */
+		.wrapper.style7 {
+			background-color: #B0BEC5; /* Bright and clean, enhances readability */
+		}
+		/* Optional icon color for Sleek Silver (if needed) */
+		.wrapper.style7 .icon.major:before {
+			color: #4B4B4B; /* Subtle Grey Accent */
+		}
+
 
 /* Image */
 
