@@ -2537,60 +2537,53 @@ input, select, textarea {
 
 		/* ------------------- Style 1: Deep Ocean Blue ------------------- */
 		.wrapper.style1 {
-			background-color: #37474F; /* Bold yet professional */
+			background-color: #312450;
 		}
 		.wrapper.style1 .icon.major:before {
-			color: #5e42a6; /* Icon Accent: Medium Violet */
+			color: #5e42a6;
 		}
 
 		/* ------------------- Style 2: Deep Ocean Night ------------------- */
 		.wrapper.style2 {
-			background-color: #263238; /* Adds depth and focus */
+			background-color: #263238;
 		}
 		.wrapper.style2 .icon.major:before {
-			color: #493382; /* Icon Accent: Deep Violet */
-		}
-
-		/* ------------------- Style 3: Earthy Olive ------------------- */
-		.wrapper.style3 {
-			background-color: #6D4C41; /* Warm and inviting */
-		}
-		.wrapper.style3 .icon.major:before {
-			color: #5052b5; /* Icon Accent: Muted Indigo */
-		}
-
-		/* ------------------- Style 4: Dark Earthy Olive ------------------- */
-		.wrapper.style4 {
-			background-color: #5D4037; /* Rich and robust, great for important elements */
-		}
-		.wrapper.style4 .icon.major:before {
-			color: #3e4094; /* Icon Accent: Deep Indigo */
+			color: #493382;
 		}
 
 		/* ------------------- Style 5: Rosy Plum ------------------- */
 		.wrapper.style5 {
-			background-color: #B74E91; /* Elegant and warm */
+			background-color: #B74E91;
 		}
 		.wrapper.style5 .icon.major:before {
-			color: #b74e91; /* Icon Accent: Rosy Magenta */
+			color: #b74e91;
 		}
 
 		/* ------------------- Style 6: Deep Rosy Plum ------------------- */
 		.wrapper.style6 {
-			background-color: #953D75; /* Soft yet confident */
+			background-color: #953D75;
 		}
 		.wrapper.style6 .icon.major:before {
-			color: #953d75; /* Icon Accent: Deep Rosy Plum */
+			color: #953d75;
 		}
 
 		/* ------------------- Style 7: Sleek Silver ------------------- */
 		.wrapper.style7 {
-			background-color: #B0BEC5; /* Bright and clean, enhances readability */
+			background-color: #B0BEC5;
 		}
-		/* Optional icon color for Sleek Silver (if needed) */
 		.wrapper.style7 .icon.major:before {
-			color: #4B4B4B; /* Subtle Grey Accent */
+			color: #4B4B4B;
 		}
+		/* ------------------- Style Test: White ------------------- */
+		.wrapper.styletest {
+			background-color: #4C566A;
+		}
+		.wrapper.styletest .icon.major:before {
+			color: #4C566A;
+		}
+
+
+
 
 
 /* Image */
@@ -3560,7 +3553,8 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #261749;
+		background-color: #312450;
+		background: ;
 		cursor: default;
 		height: 100vh;
 		left: 0;
