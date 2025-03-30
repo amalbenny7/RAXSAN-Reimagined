@@ -3961,6 +3961,10 @@ input, select, textarea {
     min-height: auto !important;
     padding-top: 20px !important;
     padding-bottom: 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
 }
 /* ===== Logo Link Styling - Forced Removal of Line ===== */
 .logo-link {
@@ -3975,5 +3979,27 @@ input, select, textarea {
 	outline: none !important;
 	vertical-align: middle !important; /* Prevents baseline space */
   }
-  
-		  
+
+  .custom-carousel {
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slides {
+    display: flex;
+    width: 500%;  /* Adjust based on number of slides to show them inline */
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slides > div {
+    width: 20%;  /* Since there are 5 images, each takes 20% of the width */
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-slides img {
+    width: 100%;
+    display: block; /* Remove space below images */
+}

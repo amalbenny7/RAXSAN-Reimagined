@@ -188,3 +188,18 @@
 			});
 
 })(jQuery);
+//carosel
+document.addEventListener("DOMContentLoaded", function() {
+    const slidesContainer = document.querySelector('.carousel-slides');
+    let currentIndex = 0;
+    const slidesCount = slidesContainer.children.length;
+    const slideWidth = slidesContainer.children[0].clientWidth;
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % slidesCount;
+        slidesContainer.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+    }
+
+    setInterval(nextSlide, 3000); // Change slide every 3 seconds
+});
+
