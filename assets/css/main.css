@@ -3975,30 +3975,6 @@ input, select, textarea {
 	vertical-align: middle !important; /* Prevents baseline space */
   }
 
-  .custom-carousel {
-    overflow: hidden;
-    position: relative;
-}
-
-.carousel-slides {
-    display: flex;
-    width: 500%;  /* Adjust based on number of slides to show them inline */
-    transition: transform 0.5s ease-in-out;
-}
-
-.carousel-slides > div {
-    width: 20%;  /* Since there are 5 images, each takes 20% of the width */
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.carousel-slides img {
-    width: 100%;
-    display: block; /* Remove space below images */
-}
-
 .store-link {
 	display: flex;
 	align-items: center;
@@ -4041,4 +4017,92 @@ input, select, textarea {
 	border: none;
   }
   
+  .carousel-wrapper {
+	position: relative;
+	max-width: 720px;
+	margin: 10px auto !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.carousel-container {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.carousel-slide {
+	opacity: 0;
+	transform: scale(0.96);
+	transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.carousel-slide.active {
+	display: flex;
+	opacity: 1;
+	transform: scale(1);
+}
+
+.carousel-slide img {
+	width: 100%;
+	max-height: 480px;
+	object-fit: cover;
+	border-radius: 14px;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-caption {
+	margin-top: 20px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+	padding: 0 10px;
+	line-height: 1.6;
+}
+
+.carousel-arrow {
+	all: unset;
+	font-size: 2.4rem;
+	color: #fff;
+	cursor: pointer;
+	user-select: none;
+	transition: opacity 0.3s ease;
+	opacity: 0.75;
+	line-height: 1;
+	-webkit-tap-highlight-color: transparent; /* mobile tap bubble */
+	-webkit-focus-ring-color: transparent;    /* Safari outline */
+	outline: none;
+}
+
+.carousel-arrow:focus,
+.carousel-arrow:active,
+.carousel-arrow:focus-visible {
+	outline: none !important;
+	background: none !important;
+	box-shadow: none !important;
+	-webkit-tap-highlight-color: transparent !important;
+}
+
+.carousel-arrow:after {
+	display: none !important;
+	content: none !important;
+}
+
+* {
+	-webkit-tap-highlight-color: transparent;
+}
+
+/* ✅ Hide arrows on small screens */
+@media (max-width: 640px) {
+	.carousel-arrow {
+		display: none !important;
+	}
+}
   
