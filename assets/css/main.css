@@ -4020,7 +4020,7 @@ input, select, textarea {
   .carousel-wrapper {
 	position: relative;
 	max-width: 720px;
-	margin: 10px auto !important;
+	margin: 30px auto !important; /* Adjusted spacing */
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -4076,8 +4076,8 @@ input, select, textarea {
 	transition: opacity 0.3s ease;
 	opacity: 0.75;
 	line-height: 1;
-	-webkit-tap-highlight-color: transparent; /* mobile tap bubble */
-	-webkit-focus-ring-color: transparent;    /* Safari outline */
+	-webkit-tap-highlight-color: transparent; /* ✅ kill tap bubble */
+	-webkit-focus-ring-color: transparent;    /* ✅ kill Safari ring */
 	outline: none;
 }
 
@@ -4105,4 +4105,3 @@ input, select, textarea {
 		display: none !important;
 	}
 }
-  
