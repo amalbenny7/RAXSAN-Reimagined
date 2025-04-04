@@ -4105,3 +4105,21 @@ input, select, textarea {
 		display: none !important;
 	}
 }
+
+.video-wrapper {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0;
+  }
+  
+  .video-wrapper video {
+	width: 100% !important;
+	height: auto !important;
+	display: block;
+	object-fit: cover;
+  }
+  
