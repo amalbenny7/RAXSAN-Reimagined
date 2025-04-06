@@ -3483,7 +3483,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background-color: #23012B;
+		background-color: #23012b;
 		background: ;
 		cursor: default;
 		height: 100vh;
@@ -3996,7 +3996,7 @@ input, select, textarea {
 	margin-top: 20px;
 	font-size: 1.2rem;
 	font-weight: 500;
-	color: #fff;
+	color: #23012B;
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 	padding: 0 10px;
 	line-height: 1.6;
@@ -4110,3 +4110,32 @@ input, select, textarea {
   border-radius: 10px;
   object-fit: cover;
 }
+
+/* logo background box 
+#sidebar .logo-wrapper {
+	background-color: #e6eff7;
+	padding: 10px 0;
+	width: 100%;
+	box-sizing: border-box;
+  }
+  
+  #sidebar .logo-link {
+	display: block;
+	width: 100%;
+  }
+  
+  #sidebar .logo {
+	display: block;
+	margin: 0 auto;
+	max-width: 90%;
+	height: auto;
+  }
+  
+  
+  
+  @media screen and (max-width: 768px) {
+	#sidebar .logo-wrapper {
+	  display: none;
+	}
+  }
+*/
