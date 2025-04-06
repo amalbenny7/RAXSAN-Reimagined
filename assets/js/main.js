@@ -239,5 +239,3 @@ document.addEventListener("DOMContentLoaded", function () {
 	  startAutoScroll();
 	});
   });
-  
-  
